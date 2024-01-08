@@ -1,6 +1,5 @@
 .banner-img{
    border-radius: 16px;
-   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
    background-color: #070211, #07021100;
 }
 .banner-container{
@@ -31,13 +30,11 @@
    font-weight: 900;
    line-height: 95px; 
    margin-top: 0px; 
-    
 }
 
 .bonus-container{
     color: #F00;
     font-family: Inter;
-
 }
 .discount{
    font-size: 68px;
@@ -73,22 +70,13 @@
  }
 .section-container{
    left: 100px;
-   top: 100px;
+   top: 90px;
    position: absolute;
    display: flex;
-
 }
  .year-container{
    position: relative;
 }
- 
- 
- .section-back{
-   /* width: 1320px;
-   height: 600px;
-   flex-shrink: 0;
-   fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
- }
  .section-title{
    width: 542px;
    color: #FFF;
@@ -130,4 +118,98 @@
    flex-shrink: 0;
    margin: 0px 138px 68px 160px;
 
+ }
+ .join-container{
+   background-color:peachpuff;
+   width: 1320px;
+   height: 482px;
+   margin: 0px 120px;
+   margin-bottom: 0px;
+
+ }
+ .join-section{ 
+   text-align: center;
+    padding-top: 100px;
+
+ }
+ .join-text{
+      font-family: Inter;
+      font-size: 25px;
+      font-weight: 570;
+      line-height: 40px; 
+      text-transform: capitalize;
+      margin-bottom: 50px;
+ }
+ .join-now{
+   background-color: #F00;
+   border: none;
+   border-radius: 5px;
+   width: 130px;
+   height: 50px;
+   margin-top: 0px;
+ }
+
+ .shopping-container{
+   display: flex;
+   background-color:peachpuff;
+   width: 1320px;
+   height: 482px;
+   margin: 0px 120px;
+   margin-top: 100px;
+ }
+ .shopping-item{
+   margin-top: 70px;
+ }
+ .shopping-title{
+   color: #F00;
+   font-size: 20px;
+   font-weight: 400;
+   margin-bottom: 7px;
+ }
+ .shopping-heading{
+   color: #070211;
+   font-family: Merriweather;
+   font-size: 33px;
+   font-weight: 1000;
+   text-transform: capitalize;
+   margin-top: 0px;
+ }
+ .shopping-text{
+   color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
+   font-size: 20px; 
+   font-weight: 400;
+   line-height: 32px; 
+ }
+
+
+ .shopping-img{
+   margin: 60px ;
+   width: 200px;
+   height: 300px; 
+   border-radius: 463px; 
+ }
+
+ .shopping-year{
+   color: #F00;
+   font-family: Inter;
+   font-size: 20px; 
+   margin-top: 100px;
+ }
+ .shopping-text{
+   width: 300px;
+   color: rgba(7, 2, 17, 0.60);
+   /* font-family: Inter;
+   font-size: 20px; 
+   font-weight: 400;
+   line-height: 32px;  */
+ }
+ .shopping-description{
+   width: 300px;
+   color: rgba(7, 2, 17, 0.60);
+ }
+ .new-year{
+   width: 90px;
+   height: 90px;
+   flex-shrink: 0;
  }

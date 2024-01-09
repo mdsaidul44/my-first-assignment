@@ -241,6 +241,69 @@
    height: 90px;
  }
 
+
+.holidays-container{
+  width: 1320px;
+  height: 1035px;
+  background:peachpuff;
+  justify-content: center;
+  margin: 100px 120px 100px 120px;
+}
+.text-container{
+  text-align: center;
+}
+.holiday-span{
+  color: #070211;
+font-family: Merriweather; 
+}
+.holiday-function{
+  color: #070211;
+font-family: Inter;
+font-size: 18px; 
+font-weight: 700; 
+margin-bottom: 0px;
+}
+
+.holiday-sale{
+  color: #F00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 60px; 
+  font-weight: 900; 
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+/* .holiday-img{ 
+  position: absolute;
+}
+
+.holiday-img1{
+   justify-content: end;
+}
+.holiday-img2{
+
+}
+.holiday-img3{
+
+}
+.holiday-img4{
+
+} */
+
+
+.holiday-text{
+  color: rgba(7, 2, 17, 0.60);
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 18px; 
+  font-weight: 500;
+  line-height: 25px; 
+  width: 600px;
+  margin-left: 350px;
+  margin-top: 15px;
+}
+
+
  .item-container{
   margin: 50px 50px 120px 120px;
 

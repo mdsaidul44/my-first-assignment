@@ -153,7 +153,7 @@
  }
 
  .shopping-container{
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
    display: flex;
    background-color:peachpuff;
    width: 1320px;
@@ -188,25 +188,35 @@
 
 
  .shopping-img{
-   margin: 60px ;
+   margin: 60px 0px 0px 150px ;
    width: 200px;
    height: 300px; 
+   border-radius: 463px; 
    border-radius: 463px;
+   border: 15px solid #F00;
+   width: 363px;
+  height: 363px;
  }
 
  .shopping-year{
    color: #F00;
    font-family: Inter;
    font-size: 20px; 
-   margin-top: 100px;
+   margin-top: 100px ; 
+   text-align: center;
+   
 
  }
 
 
  .year-2024{
-  top: 400px;
-  text-align: center;
-  margin-bottom: 0px;
+  color: #F00;
+  font-family: Inter;
+  font-size: 38px; 
+  font-weight: 700; 
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-bottom: 10px; 
  }
  .shopping-text{
    width: 300px;
@@ -214,17 +224,21 @@
    font-family: Inter;
    font-size: 20px; 
    font-weight: 400;
-   line-height: 32px; 
+   line-height: 32px;  
  }
  .shopping-description{
-   width: 300px;
-   color: rgba(7, 2, 17, 0.60);
-   margin-bottom: 0px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px; 
+  font-weight: 400;
+  line-height: 32px;  
+  width: 276px;
+  margin-left: 120px;
+  margin-top: 0px;
  }
  .new-year{
    width: 90px;
    height: 90px;
-   flex-shrink: 0;
  }
 
  .item-container{

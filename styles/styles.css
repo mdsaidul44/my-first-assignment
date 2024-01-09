@@ -150,12 +150,13 @@
  }
 
  .shopping-container{
+  justify-content: space-evenly;
    display: flex;
    background-color:peachpuff;
    width: 1320px;
    height: 482px;
    margin: 0px 120px;
-   margin-top: 100px;
+   margin-top: 100px; 
  }
  .shopping-item{
    margin-top: 70px;
@@ -187,7 +188,7 @@
    margin: 60px ;
    width: 200px;
    height: 300px; 
-   border-radius: 463px; 
+   border-radius: 463px;
  }
 
  .shopping-year{
@@ -195,21 +196,137 @@
    font-family: Inter;
    font-size: 20px; 
    margin-top: 100px;
+
+ }
+
+
+ .year-2024{
+  top: 400px;
+  text-align: center;
+  margin-bottom: 0px;
  }
  .shopping-text{
    width: 300px;
    color: rgba(7, 2, 17, 0.60);
-   /* font-family: Inter;
+   font-family: Inter;
    font-size: 20px; 
    font-weight: 400;
-   line-height: 32px;  */
+   line-height: 32px; 
  }
  .shopping-description{
    width: 300px;
    color: rgba(7, 2, 17, 0.60);
+   margin-bottom: 0px;
  }
  .new-year{
    width: 90px;
    height: 90px;
    flex-shrink: 0;
+ }
+
+ .item-container{
+  margin: 50px 50px 120px 120px;
+
+ }
+  
+ .image-title{
+  color: #F00;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+ }
+ .image-heading{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 30px;
+  font-weight: 7000;
+  text-transform: capitalize;
+  margin-top: 0px;
+  margin-bottom: 18px;
+ }
+ .image-text{
+  width: 650px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 0px;
+ }
+ .item-img{
+   margin-top: 50px;
+
+ }
+ .image-all{
+  margin: 5px;
+ }
+  
+ .subscribe-container{
+  width: 1320px;
+  height: 516px;
+  border-radius: 16px;
+  background-color:peachpuff;
+  margin: 0px 120px;
+  position: relative;
+ }
+ .subscribe-list{
+  position: absolute;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin: 110px 100px 0px 300px;
+ }
+ .msg-icon{
+  width: 130px;
+  height: 130px;
+ }
+ .subscribe-heading{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 38px;
+  font-weight: 1000;
+  text-transform: capitalize;
+ }
+
+ .subscribe-text{
+  width: 750px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px; 
+ }
+ .subscribe-form{
+  margin-right: 120px;
+ }
+ .subscribe-email{
+  width: 328px;
+  height: 32px;
+  border-radius: 50px 0px 0px 50px;
+  background: #FFF; 
+  display: inline-block;
+   border: 0px;
+ }
+ .subscribe-btn{
+  width: 120px;
+  height: 34px;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  display: inline-block;
+  position: absolute;
+  border: 0px;
+ }
+
+
+ .footer-container{
+  background: #070211;
+  width: 1600px;
+  height: 409px;
+  margin-top: 120px;
+ }
+
+ .footer-div{
+  text-align: center;
+  position: relative;
  }
